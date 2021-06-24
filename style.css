@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+main {
+  _background-color: rosybrown;
+  _align-items: center;
+  _align-content: center;
+}
+.polaroid {
+  width: 90%;
+  margin-top: 15vh;
+  margin-bottom: 8vh;
+  _margin-left: 6vw;
+  _margin-right: 6vw;
+  _min-width: 3rem;
+  max-width: 70vh;
+  max-height: 70vh;
+  padding: 1vmin;
+  border: 0.1rem rgb(233, 233, 233) solid;
+  background-color: white;
+  box-shadow: 0.2rem 0.2rem rgb(197, 196, 196);
+  transform: rotate(-2deg);
+  font-family: "Caveat", cursive;
+  font-size: 3vmin;
+  text-align: center;
+}
+
+.scaled {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  _margin: 0rem 0rem;
+  _padding: 1vh 1.5rem;
+  justify-content: center;
+  align-items: center;
+  _background-color: red;
+}
