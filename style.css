@@ -2,6 +2,7 @@
 *:before,
 *:after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -15,13 +16,13 @@ main {
 }
 .polaroid {
   width: 90%;
-  margin-top: 8vh;
-  margin-bottom: 8vh;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
   _margin-left: 6vw;
   _margin-right: 6vw;
   _min-width: 3rem;
   max-width: 70vh;
-  max-height: 70vh;
+  max-height: 75vh;
   padding: 1vmin;
   border: 0.1rem rgb(233, 233, 233) solid;
   background-color: white;
@@ -40,7 +41,8 @@ main {
   display: flex;
   width: 95vw;
   height: 92vh;
-  _margin: 0rem 0rem;
+  _height: 100%;
+  margin: auto;
   padding: 1vw 1.5rem;
   justify-content: center;
   align-items: center;
