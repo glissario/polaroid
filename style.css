@@ -9,18 +9,19 @@ html {
   font-size: 15px;
 }
 
-main {
-  _background-color: rosybrown;
-  _align-items: center;
-  _align-content: center;
+body {
+  height: 100vh;
+  margin: 0;
 }
+
+main {
+  height: 100%;
+}
+
 .polaroid {
   width: 90%;
   margin-top: 10vh;
   margin-bottom: 15vh;
-  _margin-left: 6vw;
-  _margin-right: 6vw;
-  _min-width: 3rem;
   max-width: 70vh;
   max-height: 75vh;
   padding: 1vmin;
@@ -40,11 +41,32 @@ main {
 .flex {
   display: flex;
   width: 95vw;
-  height: 92vh;
-  _height: 100%;
+  _height: 100vh;
+  height: 100%;
   margin: auto;
   padding: 1vw 1.5rem;
   justify-content: center;
   align-items: center;
   _background-color: red;
+}
+
+.circle1 {
+  background-color: red;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  transition: 10s;
+}
+
+.circle2 {
+  background-color: blue;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.rect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
